@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #4e4e4e;
+}
+header{
+    background-color: #ffffff;
+    padding: 0.5rem 1.25rem;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 30px;
+}
+
+header ul{
+    /*background-color: rgb(95, 86, 86);*/
+    padding: 5px ;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 30px;
+}
+
+a:hover{
+    color: #46b2fa;
+}
+
+.logo span{
+    color: #46b2fa;
+}
+
+.logo span:nth-child(2){
+  color: #4e4e4e;
+}
+
+
+body {
+    background-image: url("smile-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.texto-bienvenida{
+    color: #ffffff;
+    font-size: 50px;
+    padding: 0.5rem 1.25rem;
+    height: 64px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 350px;
+}
+
+
+.formularioPaciente{
+    width: 400px;
+    background: white;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    color: #4e4e4e;
+    box-shadow: 1px 1px 10px #585858;
+}
+
+.formularioPaciente h3{
+    font-size: 25px;
+    color: #46b2fa;
+    margin-bottom: 20px;
+}
+
+.form-control{
+    width: 95%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 1px solid #46b2fa;
+    font-size: 18px;
+}
+
+.btnPaciente{
+    width: 100%;
+    background:#46b2fa;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.btnPaciente:hover{
+    background:#0077c7;
+    color: white;
+}
+
+/* .pacienteTable{
+    background-color: white;
+} */
+
+footer{
+    background-color: #4e4e4e;
+    color: white;
+    font-size: 10px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}

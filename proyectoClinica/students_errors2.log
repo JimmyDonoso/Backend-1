@@ -1,0 +1,1 @@
+[2021-10-0100:42:36] [ ERROR] [ExcepcionGlobal:16] Unable to find com.example.proyectoClinica.model.Odontologo with id 455555; nested exception is javax.persistence.EntityNotFoundException: Unable to find com.example.proyectoClinica.model.Odontologo with id 455555
